@@ -1,4 +1,4 @@
-# 🎯 Week 0: 
+# 🎯 Week 0 of RISC-V Chip Tapeout propgram 
 <details>
    <summary>Task 1: Video summary</summary>     
    
