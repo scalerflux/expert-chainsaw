@@ -3,7 +3,7 @@
    <summary>Task 1: Video summary</summary>     
    
 ## Step 1: Define the goal 🚀  
-- Application in C → expected output **O₀**  
+- Application in C → compile →  expected output **O₀**  
 - Build a high-level C spec of the processor (not Verilog)  
 - Compile the app on spec (e.g. RISC-V GCC / ARM GCC / x86 GCC) → output **O₁**  
 - If **O₀ = O₁**, freeze the specification  
@@ -30,15 +30,15 @@
 
 | Type | What’s inside | When used |
 |------|----------------|------------|
-| **Microprocessor (MPU)** | CPU core (ALU, control logic, registers, etc.). Needs external memory, I/O, timers. | When you want flexibility, performance, more external components. |
-| **Microcontroller (MCU)** | CPU + memory (program & data) + I/O + peripherals (timers, ADC/DAC, etc.), all on one chip. | Embedded tasks, low power, cost/size sensitive. |
+| **Microprocessor (MPU)** | CPU core (ALU, control logic, registers, etc.). Needs external memory, I/O, timers.
+| **Microcontroller (MCU)** | CPU + memory (program & data) + I/O + peripherals (timers, ADC/DAC, etc.), all on one chip.
 
 ---
 
 ## Step 4: Physical Implementation & Tape-out 🏗️  
 - Floor-planning → placement → clock tree synthesis (CTS) → routing  
 - Produce **GDSII** file (fab input)  
-- Run checks: **DRC** (Design Rule Check), **LVS** 
+- Run checks: **DRC** (Design Rule Check), **LVS** (Layout vs Schematic)
 - **Tape-out**: send to fab  
 
 ---
