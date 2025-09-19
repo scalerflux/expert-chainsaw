@@ -2,7 +2,7 @@
 <details>
    <summary>Task 1: Video summary</summary>
       
-
+#Task 1: Video summary
 ---
 
 ## Step 1: Define the goal 🚀  
@@ -59,11 +59,11 @@ Then: consider productization, identifying market fit, deployment paths, etc.
 
 ---
 <details>
-
+   
 <details>
-<summary>Task 2: Tools installation</summary>
+      <summary>Task 2: Tools installation</summary>
 
-##Yosys
+## Yosys
 ```
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
@@ -76,5 +76,22 @@ $ make config-gcc
 $ make
 $ sudo make install
 ```
-<details>
+<img width="804" height="627" alt="Screenshot 2025-09-19 at 5 21 06 PM" src="https://github.com/user-attachments/assets/22e4110a-4e47-4dc9-88f0-f3df4294b3a6" />
+
+## Iverilog
+```
+$ sudo apt-get install iverilog
+```
+<img width="802" height="639" alt="Screenshot 2025-09-19 at 5 25 18 PM" src="https://github.com/user-attachments/assets/c382d0ee-baa0-44c4-8a91-9e3674be777a" />
+
+## GTKWave
+```
+$ sudo apt install gtkwave
+
+```
+<img width="1000" height="900" alt="Screenshot 2025-09-19 at 5 30 42 PM" src="https://github.com/user-attachments/assets/4a28f5b7-5f0c-4845-ba99-7b8f8b72b6fb" />
+
+
+
+  <details>
 
