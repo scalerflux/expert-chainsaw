@@ -1,6 +1,7 @@
-# 🎯 Week 0: Task 1
-
-Basics of digital VLSI SoC Design & Planning
+# 🎯 Week 0: 
+<details>
+   <summary>Task 1: Video summary</summary>
+      
 
 ---
 
@@ -57,5 +58,23 @@ When all outputs are equal, the design is verified: the chip can run the applica
 Then: consider productization, identifying market fit, deployment paths, etc.
 
 ---
+<details>
 
+<details>
+<summary>Task 2: Tools installation</summary>
+
+##Yosys
+```
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys
+$ sudo apt install make (If make is not installed please install it)
+$ sudo apt-get install build-essential clang bison flex \
+libreadline-dev gawk tcl-dev libffi-dev git \
+graphviz xdot pkg-config python3 libboost-system-dev \
+libboost-python-dev libboost-filesystem-dev zlib1g-dev
+$ make config-gcc
+$ make
+$ sudo make install
+```
+<details>
 
