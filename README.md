@@ -1,10 +1,7 @@
 # 🎯 Week 0: 
 <details>
-   <summary>Task 1: Video summary</summary>
-      
-#Task 1: Video summary
----
-
+   <summary>Task 1: Video summary</summary>     
+   
 ## Step 1: Define the goal 🚀  
 - Application in C → expected output **O₀**  
 - Build a high-level C spec of the processor (not Verilog)  
@@ -57,11 +54,11 @@
 When all outputs are equal, the design is verified: the chip can run the application correctly.  
 Then: consider productization, identifying market fit, deployment paths, etc.
 
----
+</details>
+
 <details>
-   
-<details>
-      <summary>Task 2: Tools installation</summary>
+
+<summary>Task 2: Tools installation </summary>
 
 ## Yosys
 ```
@@ -90,8 +87,5 @@ $ sudo apt install gtkwave
 
 ```
 <img width="1000" height="900" alt="Screenshot 2025-09-19 at 5 30 42 PM" src="https://github.com/user-attachments/assets/4a28f5b7-5f0c-4845-ba99-7b8f8b72b6fb" />
-
-
-
-  <details>
+<details>
 
