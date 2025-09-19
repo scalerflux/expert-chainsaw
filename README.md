@@ -1,4 +1,6 @@
-# 🎯 Week 0: Basics of digital VLSI SoC Design & Planning
+# 🎯 Week 0: Task 1
+
+Basics of digital VLSI SoC Design & Planning
 
 ---
 
@@ -55,4 +57,5 @@ When all outputs are equal, the design is verified: the chip can run the applica
 Then: consider productization, identifying market fit, deployment paths, etc.
 
 ---
+
 
