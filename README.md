@@ -28,7 +28,7 @@
 
 ## Microprocessor vs Microcontroller 🧠  
 
-| Type | What’s inside | When used |
+| Type | What’s inside | 
 |------|----------------|------------|
 | **Microprocessor (MPU)** | CPU core (ALU, control logic, registers, etc.). Needs external memory, I/O, timers.
 | **Microcontroller (MCU)** | CPU + memory (program & data) + I/O + peripherals (timers, ADC/DAC, etc.), all on one chip.
